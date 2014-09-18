@@ -10,6 +10,8 @@ if exists('syntax_on')
   syntax reset
 endif
 
+highlight  Normal             ctermfg=253   ctermbg=234   cterm=NONE
+
 " Misc {{{1
 
 highlight  Comment            ctermfg=240   ctermbg=NONE  cterm=NONE
@@ -17,7 +19,6 @@ highlight  Constant           ctermfg=116   ctermbg=NONE  cterm=NONE
 highlight  Identifier         ctermfg=216   ctermbg=NONE  cterm=NONE
 highlight  MatchParen         ctermfg=161   ctermbg=NONE  cterm=bold
 highlight  NonText            ctermfg=199   ctermbg=NONE  cterm=bold
-highlight  Normal             ctermfg=253   ctermbg=234   cterm=NONE
 highlight  Number             ctermfg=116   ctermbg=NONE  cterm=NONE
 highlight  PreProc            ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight  Special            ctermfg=181   ctermbg=NONE  cterm=NONE
