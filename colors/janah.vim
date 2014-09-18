@@ -21,6 +21,7 @@ highlight  Normal             ctermfg=253   ctermbg=NONE  cterm=NONE
 highlight  Number             ctermfg=116   ctermbg=NONE  cterm=NONE
 highlight  PreProc            ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight  Special            ctermfg=181   ctermbg=NONE  cterm=NONE
+highlight  SpecialKey         ctermfg=237   ctermbg=NONE  cterm=NONE
 highlight  Statement          ctermfg=150   ctermbg=NONE  cterm=NONE
 highlight  String             ctermfg=110   ctermbg=NONE  cterm=NONE
 highlight  Title              ctermfg=156   ctermbg=NONE  cterm=NONE
@@ -123,7 +124,6 @@ highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 "highlight  SignHL           ctermfg=167   ctermbg=237   cterm=bold
 "highlight  SpecialChar      ctermfg=181                 cterm=NONE
 "highlight  SpecialComment   ctermfg=181                 cterm=NONE
-"highlight  SpecialKey       ctermfg=237
 "highlight  StorageClass     ctermfg=115                 cterm=NONE
 "highlight  Structure        ctermfg=115                 cterm=NONE
 "highlight  Tag              ctermfg=181                 cterm=NONE
