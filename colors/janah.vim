@@ -16,6 +16,7 @@ highlight  Normal             ctermfg=253   ctermbg=235   cterm=NONE
 
 highlight  Comment            ctermfg=240   ctermbg=NONE  cterm=NONE
 highlight  Constant           ctermfg=116   ctermbg=NONE  cterm=NONE
+highlight  Directory          ctermfg=151   ctermbg=NONE  cterm=NONE
 highlight  Identifier         ctermfg=216   ctermbg=NONE  cterm=NONE
 highlight  MatchParen         ctermfg=161   ctermbg=NONE  cterm=bold
 highlight  NonText            ctermfg=199   ctermbg=NONE  cterm=bold
@@ -108,7 +109,6 @@ highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 "highlight  Debug            ctermfg=181   ctermbg=NONE  cterm=NONE
 "highlight  Define           ctermfg=223                 cterm=NONE
 "highlight  Delimiter        ctermfg=181                 cterm=NONE
-"highlight  Directory        ctermfg=151                 cterm=NONE
 "highlight  Error            ctermfg=167   ctermbg=52    cterm=NONE
 "highlight  Exception        ctermfg=150                 cterm=NONE
 "highlight  Float            ctermfg=116                 cterm=NONE
