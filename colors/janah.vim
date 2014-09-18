@@ -10,7 +10,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight  Normal             ctermfg=253   ctermbg=234   cterm=NONE
+highlight  Normal             ctermfg=253   ctermbg=235   cterm=NONE
 
 " Misc {{{1
 
