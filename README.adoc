@@ -1,0 +1,3 @@
+A dark colorscheme for Vim. 256 colors only.
+
+image:https://github.com/mhinz/vim-janah/raw/master/janah.png[Janah in action!]
