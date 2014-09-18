@@ -10,54 +10,62 @@ if exists('syntax_on')
   syntax reset
 endif
 
+" Misc {{{1
+
 highlight  Constant           ctermfg=116   ctermbg=NONE  cterm=NONE
+highlight  Number             ctermfg=116   ctermbg=NONE  cterm=NONE
+
+highlight  Identifier         ctermfg=216   ctermbg=NONE  cterm=NONE
 highlight  Normal             ctermfg=253   ctermbg=NONE  cterm=NONE
 highlight  PreProc            ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight  Statement          ctermfg=150   ctermbg=NONE  cterm=NONE
 highlight  String             ctermfg=110   ctermbg=NONE  cterm=NONE
 highlight  Type               ctermfg=115   ctermbg=NONE  cterm=NONE
-highlight  Identifier         ctermfg=216   ctermbg=NONE  cterm=NONE
 highlight  Comment            ctermfg=240   ctermbg=NONE  cterm=NONE
-highlight  Number             ctermfg=116   ctermbg=NONE  cterm=NONE
 highlight  Special            ctermfg=181   ctermbg=NONE  cterm=NONE
 
-" Number column.
-highlight  LineNr             ctermfg=102   ctermbg=237   cterm=NONE
-highlight  CursorLineNr       ctermfg=102   ctermbg=237   cterm=NONE
+" Cursor lines {{{1
 
-" Sign column.
-highlight  SignColumn         ctermfg=NONE  ctermbg=237   cterm=NONE
-
-" Cursor.
 highlight  CursorLine         ctermfg=NONE  ctermbg=236   cterm=NONE
-highlight! link CursorColumn CursorLine
+highlight  CursorColumn       ctermfg=NONE  ctermbg=236   cterm=NONE
 
-" Diff.
-highlight  DiffAdd            ctermfg=119   ctermbg=NONE  cterm=NONE
-highlight  DiffDelete         ctermfg=167   ctermbg=NONE  cterm=NONE
-highlight  DiffChange         ctermfg=227   ctermbg=NONE  cterm=NONE
-highlight  DiffText           ctermfg=203   ctermbg=52    cterm=bold
-highlight  SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
-highlight  SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
-highlight  SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
+" Tabline {{{1
 
-" Statusline.
-highlight  StatusLine         ctermfg=254   ctermbg=237   cterm=NONE
-highlight  StatusLineNC       ctermfg=244   ctermbg=237   cterm=NONE
-
-" Tabline.
 highlight  TabLine            ctermfg=244   ctermbg=236   cterm=NONE
 highlight  TabLineSel         ctermfg=254   ctermbg=236   cterm=bold
 highlight  TabLineFill        ctermfg=187   ctermbg=236   cterm=NONE
 
-"highlight  Statement        ctermfg=150                 cterm=NONE
-"highlight  Comment          ctermfg=240                 cterm=NONE
+" Statusline {{{1
+
+highlight  StatusLine         ctermfg=254   ctermbg=237   cterm=NONE
+highlight  StatusLineNC       ctermfg=244   ctermbg=237   cterm=NONE
+
+" Number column {{{1
+
+highlight  LineNr             ctermfg=102   ctermbg=237   cterm=NONE
+highlight  CursorLineNr       ctermfg=102   ctermbg=237   cterm=NONE
+
+" Diff & Signs {{{1
+
+highlight  SignColumn         ctermfg=NONE  ctermbg=237   cterm=NONE
+
+highlight  DiffAdd            ctermfg=119   ctermbg=NONE  cterm=NONE
+highlight  DiffDelete         ctermfg=167   ctermbg=NONE  cterm=NONE
+highlight  DiffChange         ctermfg=227   ctermbg=NONE  cterm=NONE
+highlight  DiffText           ctermfg=203   ctermbg=52    cterm=bold
+
+highlight  SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
+highlight  SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
+highlight  SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
+
+" Folds {{{1
+
+highlight  Folded             ctermfg=117   ctermbg=237   cterm=NONE
+highlight  FoldColumn         ctermfg=117   ctermbg=237   cterm=NONE
+
 "highlight  Character        ctermfg=110                 cterm=NONE
-"highlight  Constant         ctermfg=116                 cterm=NONE
-"highlight  Number           ctermfg=116                 cterm=NONE
 "highlight  Boolean          ctermfg=116                 cterm=NONE
 "highlight  Float            ctermfg=116                 cterm=NONE
-"highlight  Identifier       ctermfg=216                 cterm=NONE
 "highlight  Function         ctermfg=216                 cterm=NONE
 "highlight  Conditional      ctermfg=150                 cterm=NONE
 "highlight  Exception        ctermfg=150                 cterm=NONE
@@ -65,12 +73,10 @@ highlight  TabLineFill        ctermfg=187   ctermbg=236   cterm=NONE
 "highlight  Label            ctermfg=150                 cterm=NONE
 "highlight  Operator         ctermfg=150                 cterm=NONE
 "highlight  Keyword          ctermfg=150                 cterm=NONE
-"highlight  PreProc          ctermfg=223                 cterm=NONE
 "highlight  Include          ctermfg=223                 cterm=NONE
 "highlight  Define           ctermfg=223                 cterm=NONE
 "highlight  Macro            ctermfg=223                 cterm=NONE
 "highlight  PreCondit        ctermfg=223                 cterm=NONE
-"highlight  Type             ctermfg=115                 cterm=NONE
 "highlight  StorageClass     ctermfg=115                 cterm=NONE
 "highlight  Structure        ctermfg=115                 cterm=NONE
 "highlight  Typedef          ctermfg=115                 cterm=NONE
@@ -88,14 +94,9 @@ highlight  TabLineFill        ctermfg=187   ctermbg=236   cterm=NONE
 "highlight  SpellRare                      ctermbg=13    cterm=undercurl
 "highlight  SpellLocal                     ctermbg=14    cterm=undercurl
 "highlight  CursorIM         ctermfg=bg    ctermbg=116
-"highlight  CursorColumn     ctermfg=NONE  ctermbg=236   cterm=NONE
-"highlight  CursorLine       cterm=NONE    ctermbg=236   cterm=NONE
 "highlight  Directory        ctermfg=151                 cterm=NONE
 "highlight  ErrorMsg         ctermfg=167   ctermbg=NONE  cterm=bold
 "highlight  VertSplit        ctermfg=242   ctermbg=237   cterm=NONE
-"highlight  SignColumn       ctermfg=145   ctermbg=237   cterm=NONE
-"highlight  LineNr           ctermfg=102   ctermbg=237
-"highlight  CursorLineNr     ctermfg=102   ctermbg=237
 "highlight  MatchParen       ctermfg=46    ctermbg=NONE  cterm=bold
 "highlight  MoreMsg          ctermfg=29                  cterm=NONE
 "highlight  ModeMsg          ctermfg=117   ctermbg=NONE  cterm=NONE
@@ -106,12 +107,6 @@ highlight  TabLineFill        ctermfg=187   ctermbg=236   cterm=NONE
 "highlight  WarningMsg       ctermfg=173   ctermbg=237   cterm=NONE
 "highlight  WildMenu         ctermfg=16    ctermbg=186   cterm=bold
 "highlight  SignHL           ctermfg=167   ctermbg=237   cterm=bold
-"highlight  DiffAdd          ctermfg=119   ctermbg=NONE  cterm=NONE
-"highlight  DiffDelete       ctermfg=167   ctermbg=NONE  cterm=NONE
-"highlight  DiffChange       ctermfg=227   ctermbg=NONE  cterm=NONE
-"highlight  DiffText         ctermfg=203   ctermbg=52    cterm=bold
-"highlight  Folded           ctermfg=117   ctermbg=238   cterm=NONE
-"highlight  FoldColumn       ctermfg=117   ctermbg=238   cterm=NONE
 "highlight  IncSearch        ctermfg=87                  cterm=reverse
 "highlight  Search                          ctermbg=214  cterm=NONE
 "highlight  Pmenu            ctermfg=253   ctermbg=233   cterm=NONE
@@ -146,4 +141,4 @@ highlight  TabLineFill        ctermfg=187   ctermbg=236   cterm=NONE
 "highlight  perlVarPlain     ctermfg=113   ctermbg=NONE  cterm=NONE
 "highlight  perlVarPlain2    ctermfg=113   ctermbg=NONE  cterm=NONE
 
-"let g:colors_name = 'janah'
+let g:colors_name = 'janah'
