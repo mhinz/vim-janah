@@ -100,6 +100,11 @@ highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 "highlight  SpellRare        ctermfg=NONE  ctermbg=13    cterm=NONE
 "highlight  SpellLocal       ctermfg=NONE  ctermbg=14    cterm=NONE
 
+" Neovim {{{1
+if has('nvim')
+  highlight EndOfFile        ctermfg=234   ctermbg=NONE  cterm=NONE
+endif
+
 " Unused {{{1
 
 "highlight  Boolean          ctermfg=116                 cterm=NONE
