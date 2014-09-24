@@ -61,10 +61,6 @@ highlight  DiffDelete         ctermfg=167   ctermbg=NONE  cterm=NONE
 highlight  DiffChange         ctermfg=227   ctermbg=NONE  cterm=NONE
 highlight  DiffText           ctermfg=203   ctermbg=52    cterm=bold
 
-highlight  SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
-highlight  SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
-highlight  SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
-
 " Folds {{{1
 
 highlight  FoldColumn         ctermfg=117   ctermbg=237   cterm=NONE
@@ -100,10 +96,27 @@ highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 "highlight  SpellRare        ctermfg=NONE  ctermbg=13    cterm=NONE
 "highlight  SpellLocal       ctermfg=NONE  ctermbg=14    cterm=NONE
 
-" Plugins: vim-easymotion {{{1
+" Plugin: vim-easymotion {{{1
 highlight EasyMotionTarget        ctermfg=161 ctermbg=NONE cterm=bold
 highlight EasyMotionTarget2First  ctermfg=75  ctermbg=NONE cterm=NONE
 highlight EasyMotionTarget2Second ctermfg=63  ctermbg=NONE cterm=NONE
+
+" Plugin: vim-signify {{{1
+highlight  SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
+highlight  SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
+highlight  SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
+
+" Plugin: vim-startify {{{1
+highlight StartifyBracket ctermfg=240   ctermbg=NONE   cterm=NONE
+highlight StartifyFile    ctermfg=255   ctermbg=NONE   cterm=NONE
+highlight StartifyFooter  ctermfg=240   ctermbg=NONE   cterm=NONE
+highlight StartifyHeader  ctermfg=114   ctermbg=NONE   cterm=NONE
+highlight StartifyNumber  ctermfg=215   ctermbg=NONE   cterm=NONE
+highlight StartifyPath    ctermfg=245   ctermbg=NONE   cterm=NONE
+highlight StartifySection ctermfg=181   ctermbg=NONE   cterm=NONE
+highlight StartifySelect  ctermfg=81    ctermbg=NONE   cterm=NONE
+highlight StartifySlash   ctermfg=240   ctermbg=NONE   cterm=NONE
+highlight StartifySpecial ctermfg=240   ctermbg=NONE   cterm=NONE
 
 " Unused {{{1
 
