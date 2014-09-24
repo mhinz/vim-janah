@@ -100,10 +100,10 @@ highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 "highlight  SpellRare        ctermfg=NONE  ctermbg=13    cterm=NONE
 "highlight  SpellLocal       ctermfg=NONE  ctermbg=14    cterm=NONE
 
-" Neovim {{{1
-if has('nvim')
-  highlight EndOfFile        ctermfg=234   ctermbg=NONE  cterm=NONE
-endif
+" Plugins: vim-easymotion {{{1
+highlight EasyMotionTarget        ctermfg=161 ctermbg=NONE cterm=bold
+highlight EasyMotionTarget2First  ctermfg=75  ctermbg=NONE cterm=NONE
+highlight EasyMotionTarget2Second ctermfg=63  ctermbg=NONE cterm=NONE
 
 " Unused {{{1
 
