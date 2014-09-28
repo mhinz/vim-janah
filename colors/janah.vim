@@ -73,6 +73,7 @@ highlight  Search            ctermfg=7     ctermbg=161   cterm=NONE
 
 " Messages {{{1
 
+highlight  Error             ctermfg=255   ctermbg=160   cterm=NONE
 highlight  ErrorMsg          ctermfg=255   ctermbg=160   cterm=NONE
 highlight  ModeMsg           ctermfg=156   ctermbg=NONE  cterm=bold
 highlight  MoreMsg           ctermfg=7     ctermbg=26    cterm=NONE
