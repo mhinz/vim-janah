@@ -27,6 +27,7 @@ highlight  SpecialKey         ctermfg=237   ctermbg=NONE  cterm=NONE
 highlight  Statement          ctermfg=150   ctermbg=NONE  cterm=NONE
 highlight  String             ctermfg=110   ctermbg=NONE  cterm=NONE
 highlight  Title              ctermfg=156   ctermbg=NONE  cterm=NONE
+highlight  Todo               ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight  Type               ctermfg=115   ctermbg=NONE  cterm=NONE
 highlight  VertSplit          ctermfg=237   ctermbg=237   cterm=NONE
 highlight  WildMenu           ctermfg=161   ctermbg=234   cterm=bold
@@ -147,7 +148,6 @@ highlight StartifySpecial ctermfg=240   ctermbg=NONE   cterm=NONE
 "highlight  StorageClass     ctermfg=115                 cterm=NONE
 "highlight  Structure        ctermfg=115                 cterm=NONE
 "highlight  Tag              ctermfg=181                 cterm=NONE
-"highlight  Todo             ctermfg=NONE  ctermbg=233   cterm=NONE
 "highlight  Typedef          ctermfg=115                 cterm=NONE
 "highlight  Underlined       ctermfg=fg                  cterm=underline
 
