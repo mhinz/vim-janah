@@ -30,7 +30,7 @@ highlight  Title              ctermfg=156   ctermbg=NONE  cterm=NONE
 highlight  Todo               ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight  Type               ctermfg=115   ctermbg=NONE  cterm=NONE
 highlight  VertSplit          ctermfg=237   ctermbg=237   cterm=NONE
-highlight  WildMenu           ctermfg=161   ctermbg=234   cterm=bold
+highlight  WildMenu           ctermfg=161   ctermbg=237   cterm=bold
 
 " Cursor lines {{{1
 
