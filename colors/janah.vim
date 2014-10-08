@@ -93,10 +93,10 @@ highlight  PmenuSel          ctermfg=167   ctermbg=238   cterm=bold
 highlight  PmenuThumb        ctermfg=NONE  ctermbg=167   cterm=NONE
 
 " Spell {{{1
-"highlight  SpellBad         ctermfg=167   ctermbg=NONE  cterm=bold
-"highlight  SpellCap         ctermfg=NONE  ctermbg=12    cterm=NONE
-"highlight  SpellRare        ctermfg=NONE  ctermbg=13    cterm=NONE
-"highlight  SpellLocal       ctermfg=NONE  ctermbg=14    cterm=NONE
+highlight  SpellBad          ctermfg=7     ctermbg=167   cterm=NONE
+highlight  SpellCap          ctermfg=7     ctermbg=26    cterm=NONE
+highlight  SpellLocal        ctermfg=7     ctermbg=91    cterm=NONE
+highlight  SpellRare         ctermfg=7     ctermbg=29    cterm=NONE
 
 " Plugin: vim-easymotion {{{1
 highlight EasyMotionTarget        ctermfg=161 ctermbg=NONE cterm=bold
@@ -104,9 +104,9 @@ highlight EasyMotionTarget2First  ctermfg=75  ctermbg=NONE cterm=NONE
 highlight EasyMotionTarget2Second ctermfg=63  ctermbg=NONE cterm=NONE
 
 " Plugin: vim-signify {{{1
-highlight  SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
-highlight  SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
-highlight  SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
+highlight SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
+highlight SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
+highlight SignifySignChange  ctermfg=227   ctermbg=237   cterm=bold
 
 " Plugin: vim-startify {{{1
 highlight StartifyBracket ctermfg=240   ctermbg=NONE   cterm=NONE
