@@ -53,6 +53,10 @@ highlight  StatusLineNC       ctermfg=244   ctermbg=237   cterm=NONE
 highlight  CursorLineNr       ctermfg=102   ctermbg=237   cterm=NONE
 highlight  LineNr             ctermfg=102   ctermbg=237   cterm=NONE
 
+" Color column {{{1
+
+highlight  ColorColumn        ctermfg=NONE  ctermbg=237   cterm=NONE
+
 " Diff & Signs {{{1
 
 highlight  SignColumn         ctermfg=NONE  ctermbg=237   cterm=NONE
