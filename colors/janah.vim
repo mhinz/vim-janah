@@ -124,6 +124,15 @@ highlight StartifySelect  ctermfg=81    ctermbg=NONE   cterm=NONE
 highlight StartifySlash   ctermfg=240   ctermbg=NONE   cterm=NONE
 highlight StartifySpecial ctermfg=240   ctermbg=NONE   cterm=NONE
 
+" Neovim {{{1
+
+if has('nvim')
+  highlight TermCursorFocused   ctermfg=NONE ctermbg=199  cterm=NONE
+  highlight TermCursorUnfocused ctermfg=NONE ctermbg=NONE cterm=NONE
+  let g:terminal_focused_cursor_highlight   = 'TermCursorFocused'
+  let g:terminal_unfocused_cursor_highlight = 'TermCursorUnfocused'
+endif
+
 " Unused {{{1
 
 "highlight  Boolean          ctermfg=116                 cterm=NONE
