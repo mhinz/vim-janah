@@ -127,6 +127,8 @@ highlight StartifySpecial ctermfg=240   ctermbg=NONE   cterm=NONE
 " Neovim {{{1
 
 if has('nvim')
+  highlight EndOfBuffer         ctermfg=235  ctermbg=NONE cterm=NONE
+
   highlight TermCursorFocused   ctermfg=NONE ctermbg=199  cterm=NONE
   highlight TermCursorUnfocused ctermfg=NONE ctermbg=NONE cterm=NONE
   let g:terminal_focused_cursor_highlight   = 'TermCursorFocused'
