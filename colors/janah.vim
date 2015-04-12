@@ -103,9 +103,9 @@ highlight  SpellLocal        ctermfg=7     ctermbg=91    cterm=NONE
 highlight  SpellRare         ctermfg=7     ctermbg=29    cterm=NONE
 
 " Plugin: vim-easymotion {{{1
-highlight EasyMotionTarget        ctermfg=161 ctermbg=NONE cterm=bold
-highlight EasyMotionTarget2First  ctermfg=75  ctermbg=NONE cterm=NONE
-highlight EasyMotionTarget2Second ctermfg=63  ctermbg=NONE cterm=NONE
+highlight EasyMotionTarget        ctermfg=227 ctermbg=NONE cterm=bold
+highlight EasyMotionTarget2First  ctermfg=161 ctermbg=NONE cterm=NONE
+highlight EasyMotionTarget2Second ctermfg=227 ctermbg=NONE cterm=NONE
 
 " Plugin: vim-signify {{{1
 highlight SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
