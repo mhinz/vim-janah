@@ -107,6 +107,12 @@ highlight EasyMotionTarget        ctermfg=227 ctermbg=NONE cterm=bold
 highlight EasyMotionTarget2First  ctermfg=161 ctermbg=NONE cterm=NONE
 highlight EasyMotionTarget2Second ctermfg=227 ctermbg=NONE cterm=NONE
 
+" Plugin: vim-rfc {{{1
+highlight RFCType  ctermfg=240 ctermbg=NONE cterm=NONE
+highlight RFCID    ctermfg=215 ctermbg=NONE cterm=NONE
+highlight RFCTitle ctermfg=255 ctermbg=NONE cterm=NONE
+highlight RFCDelim ctermfg=240 ctermbg=NONE cterm=NONE
+
 " Plugin: vim-signify {{{1
 highlight SignifySignAdd     ctermfg=119   ctermbg=237   cterm=bold
 highlight SignifySignDelete  ctermfg=167   ctermbg=237   cterm=bold
@@ -142,7 +148,6 @@ endif
 "highlight  Debug            ctermfg=181   ctermbg=NONE  cterm=NONE
 "highlight  Define           ctermfg=223                 cterm=NONE
 "highlight  Delimiter        ctermfg=181                 cterm=NONE
-"highlight  Error            ctermfg=167   ctermbg=52    cterm=NONE
 "highlight  Exception        ctermfg=150                 cterm=NONE
 "highlight  Float            ctermfg=116                 cterm=NONE
 "highlight  Function         ctermfg=216                 cterm=NONE
