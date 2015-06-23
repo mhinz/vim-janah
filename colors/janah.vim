@@ -139,34 +139,4 @@ if has('nvim')
   highlight TermCursorNC ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 endif
 
-" Unused {{{1
-
-"highlight Boolean guifg=#87dfdf ctermfg=116 gui=NONE cterm=NONE
-"highlight Character guifg=#87afdf ctermfg=110 gui=NONE cterm=NONE
-"highlight Conditional guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight CursorIM ctermfg=bg guibg=#87dfdf ctermbg=116
-"highlight Debug guifg=#dfafaf ctermfg=181 ctermbg=NONE gui=NONE cterm=NONE
-"highlight Define guifg=#ffdfaf ctermfg=223 gui=NONE cterm=NONE
-"highlight Delimiter guifg=#dfafaf ctermfg=181 gui=NONE cterm=NONE
-"highlight Exception guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight Float guifg=#87dfdf ctermfg=116 gui=NONE cterm=NONE
-"highlight Function guifg=#ffaf87 ctermfg=216 gui=NONE cterm=NONE
-"highlight Ignore ctermfg=bg
-"highlight Include guifg=#ffdfaf ctermfg=223 gui=NONE cterm=NONE
-"highlight Keyword guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight Label guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight Macro guifg=#ffdfaf ctermfg=223 gui=NONE cterm=NONE
-"highlight Operator guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight PreCondit guifg=#ffdfaf ctermfg=223 gui=NONE cterm=NONE
-"highlight Question ctermfg=fg gui=NONE cterm=NONE
-"highlight Repeat guifg=#afdf87 ctermfg=150 gui=NONE cterm=NONE
-"highlight SignHL guifg=#df5f5f ctermfg=167 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
-"highlight SpecialChar guifg=#dfafaf ctermfg=181 gui=NONE cterm=NONE
-"highlight SpecialComment guifg=#dfafaf ctermfg=181 gui=NONE cterm=NONE
-"highlight StorageClass guifg=#87dfaf ctermfg=115 gui=NONE cterm=NONE
-"highlight Structure guifg=#87dfaf ctermfg=115 gui=NONE cterm=NONE
-"highlight Tag guifg=#dfafaf ctermfg=181 gui=NONE cterm=NONE
-"highlight Typedef guifg=#87dfaf ctermfg=115 gui=NONE cterm=NONE
-"highlight Underlined ctermfg=fg gui=underline cterm=underline
-
 let g:colors_name = 'janah'
