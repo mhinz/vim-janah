@@ -1,6 +1,8 @@
-A dark colorscheme for Vim. 256 colors only.
+A dark colorscheme for Vim.
 
-Supports these plugins: link:https://github.com/mhinz/vim-startify[vim-startify] |
+- works with 256 color terminals and GUI
+- supports link:https://github.com/neovim/neovim[Neovim]'s new highlight groups
+- supports highlighting groups for these plugins: link:https://github.com/mhinz/vim-startify[vim-startify] |
 link:https://github.com/mhinz/vim-signify[vim-signify] |
 link:https://github.com/mhinz/vim-rfc[vim-rfc] |
 link:https://github.com/easymotion/vim-easymotion[vim-easymotion]
