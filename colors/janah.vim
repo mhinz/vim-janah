@@ -68,8 +68,8 @@ highlight DiffText guifg=#ff5f5f ctermfg=203 guibg=#5f0000 ctermbg=52 gui=bold c
 
 " Folds {{{1
 
-highlight FoldColumn guifg=#87dfff ctermfg=117 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-highlight Folded guifg=#87dfff ctermfg=117 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+highlight FoldColumn ctermfg=102 ctermbg=237 cterm=NONE guifg=#878787 guibg=#3a3a3a gui=NONE
+highlight Folded ctermfg=102 ctermbg=237 cterm=NONE guifg=#878787 guibg=#3a3a3a gui=NONE
 
 " Search {{{1
 
