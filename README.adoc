@@ -8,3 +8,11 @@ link:https://github.com/mhinz/vim-rfc[vim-rfc] |
 link:https://github.com/easymotion/vim-easymotion[vim-easymotion]
 
 image:https://github.com/mhinz/vim-janah/raw/master/janah.png[Janah in action!]
+
+This colorscheme sets a dark background color for you. If you prefer the
+background color of your terminal, put this in your vimrc:
+
+```vim
+autocmd ColorScheme janah highlight Normal ctermbg=NONE
+colorscheme janah
+```
