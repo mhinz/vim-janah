@@ -10,7 +10,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
+highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
 
 " Misc {{{1
 
