@@ -102,6 +102,10 @@ highlight SpellCap guifg=#c0c0c0 ctermfg=7 guibg=#005fdf ctermbg=26 gui=NONE cte
 highlight SpellLocal guifg=#c0c0c0 ctermfg=7 guibg=#8700af ctermbg=91 gui=NONE cterm=NONE
 highlight SpellRare guifg=#c0c0c0 ctermfg=7 guibg=#00875f ctermbg=29 gui=NONE cterm=NONE
 
+" Quickfix {{{1
+highlight qfLineNr    ctermfg=238 ctermbg=NONE cterm=NONE guifg=#444444 guibg=NONE gui=NONE
+highlight qfSeparator ctermfg=243 ctermbg=NONE cterm=NONE guifg=#767676 guibg=NONE gui=NONE
+
 " Plugin: vim-easymotion {{{1
 highlight EasyMotionTarget guifg=#ffff5f ctermfg=227 ctermbg=NONE gui=bold cterm=bold
 highlight EasyMotionTarget2First guifg=#df005f ctermfg=161 ctermbg=NONE gui=NONE cterm=NONE
