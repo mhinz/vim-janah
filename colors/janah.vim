@@ -16,7 +16,7 @@ highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
 
 highlight Comment guifg=#585858 ctermfg=240 ctermbg=NONE gui=NONE cterm=NONE
 highlight Constant guifg=#87dfdf ctermfg=116 ctermbg=NONE gui=NONE cterm=NONE
-highlight Directory guifg=#afdfaf ctermfg=151 ctermbg=NONE gui=NONE cterm=NONE
+highlight Directory guifg=#ffaf87 ctermfg=216 ctermbg=NONE gui=NONE cterm=NONE
 highlight Identifier guifg=#ffaf87 ctermfg=216 ctermbg=NONE gui=NONE cterm=NONE
 highlight MatchParen guifg=#df005f ctermfg=161 ctermbg=NONE gui=bold cterm=bold
 highlight NonText guifg=#ff00af ctermfg=199 ctermbg=NONE gui=bold cterm=bold
