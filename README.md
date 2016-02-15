@@ -1,13 +1,13 @@
 A dark colorscheme for Vim.
 
 - works with 256 color terminals and GUI
-- supports link:https://github.com/neovim/neovim[Neovim]'s new highlight groups
-- supports highlighting groups for these plugins: link:https://github.com/mhinz/vim-startify[vim-startify] |
-link:https://github.com/mhinz/vim-signify[vim-signify] |
-link:https://github.com/mhinz/vim-rfc[vim-rfc] |
-link:https://github.com/easymotion/vim-easymotion[vim-easymotion]
+- supports [Neovim](https://github.com/neovim/neovim)'s new highlight groups
+- supports highlighting groups for these plugins: [vim-startify](https://github.com/mhinz/vim-startify) |
+[vim-signify](https://github.com/mhinz/vim-signify) |
+[vim-rfc](https://github.com/mhinz/vim-rfc) |
+[vim-easymotion](https://github.com/easymotion/vim-easymotion)
 
-image:https://github.com/mhinz/vim-janah/raw/master/janah.png[Janah in action!]
+![Janah in action](https://raw.githubusercontent.com/mhinz/vim-janah/master/janah.png)
 
 __NOTE__: No background color will be set if used in a terminal emulator. If
 the colorscheme doesn't look good with your terminal's default background
