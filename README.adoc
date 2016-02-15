@@ -17,3 +17,6 @@ color, put this in your vimrc:
 autocmd ColorScheme janah highlight Normal ctermbg=235
 colorscheme janah
 ```
+
+If you set `'background'` in your vimrc, make sure to do that before setting
+the above, because of a [Vim bug](https://github.com/mhinz/vim-janah/issues/2).
