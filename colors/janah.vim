@@ -17,6 +17,7 @@ highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
 highlight Comment guifg=#585858 ctermfg=240 ctermbg=NONE gui=NONE cterm=NONE
 highlight Constant guifg=#87dfdf ctermfg=116 ctermbg=NONE gui=NONE cterm=NONE
 highlight Directory guifg=#ffaf87 ctermfg=216 ctermbg=NONE gui=NONE cterm=NONE
+highlight EndOfBuffer guifg=#262626 ctermfg=235 ctermbg=NONE gui=NONE cterm=NONE
 highlight Identifier guifg=#ffaf87 ctermfg=216 ctermbg=NONE gui=NONE cterm=NONE
 highlight MatchParen guifg=#df005f ctermfg=161 ctermbg=NONE gui=bold cterm=bold
 highlight NonText guifg=#ff00af ctermfg=199 ctermbg=NONE gui=bold cterm=bold
@@ -136,11 +137,7 @@ highlight StartifySpecial guifg=#585858 ctermfg=240 ctermbg=NONE gui=NONE cterm=
 
 " Neovim {{{1
 
-if has('nvim')
-  highlight EndOfBuffer guifg=#262626 ctermfg=235 ctermbg=NONE gui=NONE cterm=NONE
-
-  highlight TermCursor ctermfg=NONE guibg=#ff00af ctermbg=199 gui=NONE cterm=NONE
-  highlight TermCursorNC ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-endif
+highlight TermCursor ctermfg=NONE guibg=#ff00af ctermbg=199 gui=NONE cterm=NONE
+highlight TermCursorNC ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:colors_name = 'janah'
