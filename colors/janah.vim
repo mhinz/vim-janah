@@ -140,4 +140,9 @@ highlight StartifySpecial guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=
 highlight TermCursor ctermfg=NONE guibg=#ff00af ctermbg=199 gui=NONE cterm=NONE
 highlight TermCursorNC ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+" HTML {{{1
+
+highlight link htmlTagN htmlTagName
+
+
 let g:colors_name = 'janah'
